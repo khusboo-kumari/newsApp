@@ -396,6 +396,7 @@ const newsContainer = document.getElementById("news-container");
 //  Build the showNews Function
 function showNews(data) {
   data.forEach((news) => {
+    if (!news.urlToImage) return;
     // console.log(news) ;
     const newCard = document.createElement("div");
     newCard.classList.add("card");
