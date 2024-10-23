@@ -58,9 +58,23 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10px;
+    gap: 30px;
     position: relative;
     height: 400px; /* Fixed height to prevent overflow */
+    overflow: hidden;
+}
+
+.news--card{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px black;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+    height: 500px; /* Fixed height to prevent overflow */
     overflow: hidden;
 }
 
@@ -116,3 +130,42 @@ main {
         grid-template-columns: 1fr;
     }
 }
+
+.filters {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.filter1, .filter2{
+    flex: 1;
+    border: none;
+    padding: 6px 12px;  
+    border-radius: 5px;
+    font-weight: bold;
+    color : #333;
+    background-color: rgb(223, 221, 221);
+    text-align: center;
+}
+
+
+
+
+.Sangai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em; /* Adjust the font size if needed */
+    margin: 20px 0; /* Add space above and below the heading */
+  }
+  
+  .sangaiImage {
+    margin-bottom: 10px; /* Space between the image and the text */
+    max-width: 100px; /* Control the image size */
+    height: auto; /* Maintain the aspect ratio */
+  }
+
+ 
+  

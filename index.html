@@ -7,22 +7,35 @@
     <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body class="full--page">
    
     <header>
-        <h1>My News </h1>
+        <!-- <img src="https://delhigreens.org/wp-content/uploads/2009/12/the-sangai-express.png" alt=""> -->
+        <img class="sangaiImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpnMPOegeMfTyW0QOOdpd8SgYIy-4T87O_Dg&s" alt="">    
+        <h1 class="Sangai">The Sangai Express
+        </h1>
         <!-- <p>Here are the news Content </p> -->
         <form action="" class="search input " >  
             <div class="searches">
-            <input type="text" placeholder="Search ur news here ">
-            <button type="button">
-                <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Type & Hit the search icon  "> 
+            <button type="button" class="searchBtn">
+                <i class="fa-solid fa-magnifying-glass"></i> 
             </button>
             </div>
         </form>
-        <!-- <ul class="filters">
+        <ul class="filters">
+            <select name="" class="filter1" id="">
+                <option value="language">language</option>
+            </select>
+
+            <select name="" id="" class="filter2">
+                <option value="sortBy">sortBy</option>
+                <option value="publishedAt"> Published At</option>
+                <option value="popularity">Popularity</option>
+                <option value="relevancy">relevancy</option>
+            </select>
            
-        </ul> -->
+        </ul>
     </header>
 
     <main id="news-container">
